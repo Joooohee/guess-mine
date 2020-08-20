@@ -1,0 +1,21 @@
+{
+  "name": "guess-mine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Joooohee/guess-mine.git",
+  "author": "joooohee <joooohee@kakao.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/node": "^7.10.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0"
+  }
+}
