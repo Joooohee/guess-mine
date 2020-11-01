@@ -13,6 +13,12 @@ button:focus {
   outline: none;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   position: sticky;
   background-color: $greyColor;
