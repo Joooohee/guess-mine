@@ -42,6 +42,7 @@ const socketController = (socket, io) => {
     }
     broadcast(events.disconnected, { nickname: socket.nickname });
     sendPlayerUpdate();
+    startGame();
   });
 
   socket.on(events.sendMsg, ({ message }) => {
